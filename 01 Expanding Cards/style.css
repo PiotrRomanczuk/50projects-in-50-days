@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    color: white;
+    font-family: Italianno;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* width: 100vh; */
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
