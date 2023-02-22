@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #f6f7fb;
+    background-color: gray;
     font-family: Roboto Slab;
     display: flex;
     flex-direction: column;
@@ -53,8 +53,8 @@ body {
     left: 0;
     transform: translateY(-50%);
     height: 4px;
-    width: 0%;
-    z-index: -1;
+    width: 50%;
+    z-index: -10;
     transition: .4s ease;
 }
 
